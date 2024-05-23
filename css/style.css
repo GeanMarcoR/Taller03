@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.block {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formList {
+    border: solid 5px black;
+    text-align: center;
+    height: 450px;
+    width: 450px;
+    padding-top: 40px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border-radius: 10px;
+
+}
+
+.Gen li {
+    display: inline-block;
+    text-decoration: none;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+
+}
+li:hover{
+    background: url(../img/degrgen.jpg);
+    color: white;
+ }
+
+.Gen {
+    display: flex;
+    justify-content: space-between;
+}
+#enviar{
+    background: url(../img/botton.avif);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+#enviar:hover{
+    width: 155px;
+    height: 55px;
+    font-size: 15px;
+ }
+#edad{
+    text-align: center;
+    width: 300px;
+    height: 25px;
+}
+#mensual {
+    text-align: center;
+    width: 170px;
+}
+
+#saldo {
+    text-align: center;
+    width: 170px;
+}
+
+body {
+    background: url(../img/textura.jpg);
+}

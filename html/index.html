@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="block">
+        <form class="formList" id="formAgen">
+            <div>
+                <ul class="Gen" style="padding-right: 50px;">
+                    <li><strong>Hombre: <input type="radio" id="sexo" value="hombre"></strong> </li>
+                    <li><strong>Mujer: <input type="radio" id="sexo" value="Mujer"></strong></li>
+                </ul>
+            </div>
+            <label for="edad"><strong>¿Cuantos Años tienes?:</strong></label><br><br>
+            <input type="number" id="edad" name="edad" placeholder="Ingrese Su Edad"><br><br><br>
+            <label for="ingMensual" style="padding-right: 70px;"><strong> Mensual S/:</strong></label>
+            <label for="salActual"><strong>Saldo Actual S/:</strong></label><br><br>
+            <input type="number" id="mensual" name="mensual" placeholder="Ingrese Sueldo Mensual">
+            <input type="number" id="saldo" name="saldo" placeholder="Ingrese Saldo Actual"><br><br><br><br>
+            <button type="submit" id="enviar">Solicitar Calculo</button>
+        </form>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
